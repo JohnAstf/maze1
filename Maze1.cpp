@@ -28,7 +28,7 @@ void Maze1::find_exit()
 	M[current.row][current.col] = VISITED;
 
 	// Loops until the exit is found or the stack is empty
-	while (!(path.empty())) {
+	while (!(path.size == 0())) {
 		// Checks if current position is the exit
 		// If so it breaks the loop
 		if (current == exitpos)
@@ -53,7 +53,7 @@ void Maze1::find_exit()
 		if (d != NONE)
 			continue;
 		path.pop();
-		if (!path.empty()) {
+		if (!(path.size == 0())) {
 			current = path.top();
 		}
 		
