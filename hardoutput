@@ -1,0 +1,34 @@
+Welcome to the Rat in a Maze Program
+
+You will prompted for the maze size, the start position,
+the exit position, and the open positions of the maze.If there is a path from the start to the exit, the sequence
+of positions on that path will be printed; if no such path
+exits, the message "no way out" will be printed
+
+Input the size of the maze (not including the hedge): The coordinates of positions in the maze must be in the range
+from 1 to 10, inclusive
+
+Enter the row and column coordinates of the start position: 
+Enter the row and column coordinates of the exit position: 
+Enter the row and column coordinates of the other OPEN positions
+terminating input with "-1 -1"
+
+************
+*s--********
+*-*----**e**
+***-**-**-**
+*------**-**
+*-*******-**
+*------**-**
+*-*******-**
+*---------**
+*-*******-**
+*------**-**
+************
+
+
+Path to exit:
+
+(1,1)(1,2)(1,3)(2,3)(3,3)(4,3)(4,2)(4,1)(5,1)(6,1)(7,1)(8,1)(8,2)(8,3)(8,4)(8,5)(8,6)(8,7)(8,8)(8,9)(7,9)(6,9)(5,9)(4,9)(3,9)(2,9)
+
+
